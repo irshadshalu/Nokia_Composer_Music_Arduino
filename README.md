@@ -20,8 +20,10 @@ A melody playing library for arduino supporting nokia composer music format
 		
  
  
-  inspired from a youtube video and corresponding tutorial by Akshay James 
+  inspired from a youtube video and corresponding tutorial by *Akshay James*
+  
   link :  https://diyhacking.com/arduino-speaker/
+  
   Thank you Akshay.
   
   you can find more music at http://home.arcor.de/malayalakavitha/mp3.htm
