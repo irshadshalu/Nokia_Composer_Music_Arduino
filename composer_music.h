@@ -22,7 +22,7 @@ void getNext(char* song,char *note){
 
   // check if end
   if(song[musicCurIndex] == '\0'){
-    note[0]='\0';
+    note[0] = '\0';
     return;
   }
   // skip spaces
@@ -33,14 +33,14 @@ void getNext(char* song,char *note){
   while(song[musicCurIndex] != ' ' && song[musicCurIndex]){
     note[i++] = song[musicCurIndex++];
   }
-  note[i]='\0';
+  note[i] = '\0';
 }
 
 int getDur(char* note){
-  int i=0;
+  int i = 0;
   int dur = 0;
   // initial duration parsing.
-  while(note[i]>='0' && note[i] <='9'){
+  while(note[i] >= '0' && note[i] <= '9'){
     dur = dur*10 + (note[i]-'0');
     i++;
   }
@@ -48,7 +48,7 @@ int getDur(char* note){
 }
 int getMelody(char* note){
   int i = 0;
-  while(note[i]>='0' && note[i] <='9'){
+  while(note[i] >= '0' && note[i] <= '9'){
     i++;
   }
   long numericValue = 0;
@@ -166,7 +166,7 @@ void playMusic(int tonepin,char* song,int tempo,float frequency_factor){
     // obtain next note
     getNext(song,note);
     // break if end
-    if(note[0]=='\0')
+    if(note[0] == '\0')
      break;
 
    // getting duration, 4000 for 4/8
