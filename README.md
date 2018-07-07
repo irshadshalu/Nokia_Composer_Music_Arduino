@@ -1,4 +1,4 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](irshadpi77@gmail.com)
+[![Donate](https://img.shields.io/badge/-Donate-green.svg)](https://www.buymeacoffee.com/irshadpi)
 
 # Nokia Composer Music Player for Arduino
 A melody playing library for arduino supporting nokia composer music format
