@@ -1,4 +1,6 @@
-# Nokia_Composer_Music_Arduino
+[![Donate](https://img.shields.io/badge/-Donate-green.svg)](https://www.buymeacoffee.com/irshadpi)
+
+# Nokia Composer Music Player for Arduino
 A melody playing library for arduino supporting nokia composer music format
 
 
@@ -29,3 +31,10 @@ A melody playing library for arduino supporting nokia composer music format
   you can find more music at http://home.arcor.de/malayalakavitha/mp3.htm
   and english at http://nokia.nigelcoldwell.co.uk/tunes.html
   and all over internet ;)
+  
+  
+  You can use this library for playing any kinds of beats or music on your Arduino board. Do add credits to the original source if you use it in any of your project.
+  
+  If you liked this project, Consider buying me a coffee!
+  <a href="https://www.buymeacoffee.com/irshadpi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+  
